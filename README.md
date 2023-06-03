@@ -1,5 +1,17 @@
-# Official YOLOv7
+﻿# YOLOv7 Colab Setup
 
+Reference: [Easiest way to Train yolov7 on the custom dataset](https://machinelearningprojects.net/train-yolov7-on-the-custom-dataset/)
+ 1. Clone Official YOLOv7 Repo
+ 2. Move to YOLOv7 folder `%cd YOLOv7`
+ 3. Install requirements `pip install -r requirements.txt`
+ 4. Add `dataset` folder to `YOLOv7/data`
+ 5. Configure `YOLOv7/data/coco.yaml` by adjusting the location of the dataset and the number of classes
+ 6. Configure `YOLOv7/cfg/training/yolov7.yaml` by adjusting the number of classes
+ 7. Download pre-trained yolov7 weights at official yolov7 repo
+ 8. Train yolov7 on the custom dataset
+
+# Official YOLOv7
+Link to repo: [Official YOLOv7](https://github.com/WongKinYiu/yolov7.git)
 Implementation of paper - [YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors](https://arxiv.org/abs/2207.02696)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/yolov7-trainable-bag-of-freebies-sets-new/real-time-object-detection-on-coco)](https://paperswithcode.com/sota/real-time-object-detection-on-coco?p=yolov7-trainable-bag-of-freebies-sets-new)
